@@ -6,11 +6,11 @@ var_file := ${}
 .PHONY: help
 help:
 	@echo 'Usage:'
-	@echo '    make init    "provider=<REPLACE_ME>" "vars_file=<REPLACE_ME>" Initialize and configure Terraform Backend.'
-	@echo '    make plan    "provider=<REPLACE_ME>" "vars_file=<REPLACE_ME>" Plan all Terraform resources.'
-	@echo '    make apply   "provider=<REPLACE_ME>" "vars_file=<REPLACE_ME>" Create or update Terraform resources.'
-	@echo '    make destroy "provider=<REPLACE_ME>" "vars_file=<REPLACE_ME>" Destroy all Terraform resources.'
-	@echo '    make console "provider=<REPLACE_ME>" "vars_file=<REPLACE_ME>" Run terraform console to debug terraform resources.'
+	@echo '    make init    "provider=<REPLACE_ME>" "var_file=<REPLACE_ME>" Initialize and configure Terraform Backend.'
+	@echo '    make plan    "provider=<REPLACE_ME>" "var_file=<REPLACE_ME>" Plan all Terraform resources.'
+	@echo '    make apply   "provider=<REPLACE_ME>" "var_file=<REPLACE_ME>" Create or update Terraform resources.'
+	@echo '    make destroy "provider=<REPLACE_ME>" "var_file=<REPLACE_ME>" Destroy all Terraform resources.'
+	@echo '    make console "provider=<REPLACE_ME>" "var_file=<REPLACE_ME>" Run terraform console to debug terraform resources.'
 	@echo '    make lint	                                                 Check syntax of all scripts.'
 	@echo '    make docs	                                                 Generate documentation for terraform modules.'
 	@echo
